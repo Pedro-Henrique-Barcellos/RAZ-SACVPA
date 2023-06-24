@@ -1,0 +1,182 @@
+.fundo {
+
+  background: linear-gradient(to right,#7f22ab, #524d9d);
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+  
+  .tema {
+    color: (235, 235, 235);
+  }
+  
+  .navbar-brand {
+     font-weight: bold;
+    font-size: 32px;
+  }
+
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+margin-bottom: 26 px;
+}
+
+  footer{
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    padding: 30px;
+    margin:  auto;
+    border: 2px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.13);
+  }
+
+  form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    outline: none;
+    border: none;
+  }
+
+  footer h1{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+  }
+
+  label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  input{
+    display: block;
+    height: 50px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  ::placeholder{
+    color: #e5e5e5;
+}
+.social{
+margin-top: 30px;
+display: flex;
+}
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(to right,#7f22ab, #524d9d);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+
+select{
+  display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    background: red;
+    width: 150px;
+    border-radius: 3px;
+    padding: 5px 10px 10px 5px;
+    background-color: rgba(255,255,255,0.27);
+    color: #eaf0fb;
+    text-align: center;
+}
+ /*--------------------------------------------------------------------------------------------------------*/
+
+
+  .btn-2 { /* botao Voltar*/
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 70px;
+    display: inline-block;
+    left: 30%;
+    text-decoration: none;
+    height: 30px;
+    background: linear-gradient(0deg, rgb(9, 24, 240) 0%, rgba(129,5,240,1) 100%);
+    border: none;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+    color : #E0e0e0;
+    transition: box-shadow 0.5s;
+    text-align: center;
+  }
+  .btn-2:before {
+    
+    height: 0%;
+    width: 2px;
+  }
+  .btn-2:hover {
+    transition: box-shadow 0.5s;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+  
+  /* <--------------------------------------------------------------------------------------------------------> */
+
+  .btn-3 { /* botao Cadastrar*/
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    background: linear-gradient(0deg, rgb(9, 24, 240) 0%, rgba(129,5,240,1) 100%);
+    border: none;
+    box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+    color : #E0e0e0;
+    transition: box-shadow 0.5s;
+  }
+  .btn-3:before {
+    
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:hover {
+    transition: box-shadow 0.5s; 
+    background: linear-gradient(0deg, rgb(9, 24, 240) 0%, rgba(129,5,240,1) 100%);
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+ 
+  

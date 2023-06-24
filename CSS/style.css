@@ -1,0 +1,137 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+.body {
+   margin: 0;
+   padding: 0;
+   background: #E0E0E0;
+   font-family: "Poppins", sans-serif;
+} 
+
+/*
+.h1 {
+   display: flex;
+   align-items: center;
+}
+ 
+
+
+.icones {
+    display: flex;
+    align-items: center;
+    display: block; 
+    width: 90px;
+    height: 10px;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+}
+ 
+.conteudo {
+   background-color: #e6e6e6;
+   min-height: 100vh;
+   box-sizing: border-box;
+  
+}
+
+.pagina {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.pesquisa {
+    width: 100%;
+    height: 70px;
+     background-color: bisque; 
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.resultado {
+   justify-content: space-between;
+   text-align: center;
+   margin-top: -10px;
+}
+.title {
+   color: rgb(0, 0, 0);
+   text-align: center;
+   font-style: italic;
+}
+
+table {
+   display: inline-block;
+   margin: 10px;
+}
+
+.produto2 {
+    font-family: "Poppins", sans-serif;
+    width: 98%;
+    height: 50px;
+    background-color: bisque;
+    align-content: center;
+    margin: 30px 30px 30px 30px;
+    padding: 15px;
+   
+}
+
+
+.item {
+   text-align: center;
+}
+
+.informacao {
+   background-color: rgb(255, 220, 192);
+   display: flex;
+   justify-content: space-between;
+   margin-top: 5px;
+}
+
+.preco {
+   margin-top: 5px;
+}
+
+button {
+   margin-top: 10px;
+   width: 150px;
+   height: 50px;
+   color: #212121;
+   font-weight: bold;
+   background-color: aliceblue;
+   border: none;
+}
+
+button:hover {
+   width: 150px;
+   height: 50px;
+   color: aliceblue;
+   font-weight: bold;
+   background-color: #212121;
+}
+
+.login-box {
+   width: 320px;
+   height: 250px;
+   background-color: bisque;
+}
+
+label {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   align-items: center;
+   font-weight: bold;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+    background-color: aliceblue;
+    color: #000;
+    font-weight: bold;
+    REMOVIDO O SUBLINHADO BRANCO DO INPUT 
+    outline: none;
+    border: none;
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+}   */

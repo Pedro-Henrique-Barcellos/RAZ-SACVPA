@@ -1,0 +1,211 @@
+body{
+    background: linear-gradient(to right,#7f22ab, #524d9d);
+    font-family: "Poppins", sans-serif; 
+    color: white;
+    }
+    
+    .conteudo{
+        height: 50px;
+        right: 587px;
+        text-align:center ;
+    }
+    
+    div h1{
+        text-align: center;
+        color: white;
+    }
+    
+    table { 
+       align-items: center;
+       
+    }
+
+    .container {
+        position: relative;
+        z-index: 1;
+        max-width: 300px;
+        margin: 0 auto;
+      }
+
+    .table-container {
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+    }
+    
+    .pesquisa{
+      color: white;
+    }
+
+    form{
+        text-align: center;
+        justify-self: center;
+     }
+    
+    input{
+      display: inline-block;
+      margin: 500px;
+      height: 50px;
+      width: 20%;
+      background-color: rgba(255, 255, 255, 0.07);
+      border: 2px;
+      border-radius: 3px;
+      padding: 0 10px;
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: 300;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      vertical-align: middle;
+    }
+    
+    ::placeholder{
+      color: rgba(255, 255, 255, 0.356);
+    }
+    
+    
+    select{
+      display: inline-block;
+      margin: 500 ;
+      height: 50px;
+      width: 15%;
+      background-color: rgba(255, 255, 255, 0.07);
+      border-radius: 3px;
+      padding: 0 10px;
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: 300;
+      color: white;
+    }
+    
+    .produto2 {
+        width: 98%;
+        height: 50px;
+        background-color: bisque;
+        align-content: center;
+        margin: 30px 30px 30px 30px;
+        padding: 15px;
+       
+    }
+    
+    .btn-4 { /* botao Vender*/
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 150px;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        right: 50px;
+        height: 50px;
+        background: linear-gradient(0deg, rgb(9, 24, 240) 0%, rgba(129,5,240,1) 100%);
+        border: none;
+        box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+        color : #E0e0e0;
+        transition: box-shadow 0.5s;
+      }
+    
+      .btn-4:before {
+        height: 0%;
+        width: 2px;
+      }
+    
+      .btn-4:hover {
+        transition: box-shadow 0.5s;
+        box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                    -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+          inset -4px -4px 6px 0 rgba(255,255,255,.2),
+          inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+      }
+      
+    
+      .btn-7 { /* Pesquisar*/
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 100px;
+        display: inline-block;
+        height: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin-top:10px;
+        right: 50px;
+        background: linear-gradient(0deg, rgb(9, 24, 240) 0%, rgba(129,5,240,1) 100%);
+        border: none;
+        box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+        color : #E0e0e0;
+        transition: box-shadow 0.5s;
+      }
+    
+      .btn-7:before {
+        height: 0%;
+        width: 2px;
+      }
+    
+      .btn-7:hover {
+        transition: box-shadow 0.5s;
+        box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                    -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+          inset -4px -4px 6px 0 rgba(255,255,255,.2),
+          inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+      }
+
+
+      .btn-5 { /* Voltar*/
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 90px;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        right: 50px;
+        height: 30px;
+        background: linear-gradient(0deg, rgb(9, 24, 240) 0%, rgba(129,5,240,1) 100%);
+        border: none;
+        box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+        color : #E0e0e0;
+        transition: box-shadow 0.5s;
+      }
+    
+      .btn-5:before {
+        height: 0%;
+        width: 2px;
+      }
+    
+      .btn-5:hover {
+        transition: box-shadow 0.5s;
+        box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                    -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+          inset -4px -4px 6px 0 rgba(255,255,255,.2),
+          inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+      }
+
+
+      .btn-9 { /* limpar pesquisa*/
+        background: rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 90px;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        right: 50px;
+        background: linear-gradient(0deg, rgb(9, 24, 240) 0%, rgba(129,5,240,1) 100%);
+        border: none;
+        box-shadow: 5px 5px 7px rgba(0,0,0,0.5);
+        color : #E0e0e0;
+        transition: box-shadow 0.5s;
+      }
+    
+      .btn-9:before {
+        height: 0%;
+        width: 2px;
+      }
+    
+      .btn-9:hover {
+        transition: box-shadow 0.5s;
+        box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                    -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+          inset -4px -4px 6px 0 rgba(255,255,255,.2),
+          inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+      }

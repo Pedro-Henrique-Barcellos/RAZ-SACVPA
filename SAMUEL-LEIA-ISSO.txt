@@ -1,0 +1,13 @@
+todas as telas fora do crud serão usadas, aplique css em cada uma individualmente, altere o que quiser, menos:
+
+name="_____"
+
+action="_____"
+
+method='_____'
+
+ou ordem de <script>
+
+thx.
+
+ps.:delete esse arquivo antes de enviar para o trello de novo.
